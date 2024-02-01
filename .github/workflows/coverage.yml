@@ -27,7 +27,7 @@ jobs:
         name: report.xml
         path: ${{ github.workspace }}/build/reports/jacoco/testCoverage/testCoverage.xml
 
-    - name: Jacoco Report to PR
+    - name: Jacoco Report too PR
       id: jacoco
       uses: madrapps/jacoco-report@v1.1
       with:
